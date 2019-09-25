@@ -6,10 +6,12 @@ public class CountByThrees {
         int count = 0;
         while (count < 301)
         {
-            if(count % 3 == 0)
-                System.out.println(count);
+            if(count % 3 == 0) {
+                if (count > 30)
+                    System.out.print(count);
                 count++;
-
+                else if ()
+            }
         }
     }
 }
